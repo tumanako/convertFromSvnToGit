@@ -1,0 +1,10 @@
+bmentink77=Bernard Mentink <bmentink@gmail.com>
+carrott=Tom Parker <tom@carrott.org>
+evbuilder=Edward Cheeseman <cheesemanedward@gmail.com>
+gjoengineer=Graham Osborne <gjoengineer@users.sourceforge.net>
+graemeb=Graeme Bell <graemeb@users.sourceforge.net>
+gsmcmullin=Gareth McMullin <gareth@blacksphere.co.nz>
+jcolebaker=Jeremy Cole-Baker <jeremy@rhtech.co.nz>
+jsphuebner=Johannes Huebner <dev@johanneshuebner.com>
+nzdonjohnson=Donovan Johnson <donovan.johnson@gmail.com>
+pccourt=Philip Court <pccourt@greenstage.co.nz>
