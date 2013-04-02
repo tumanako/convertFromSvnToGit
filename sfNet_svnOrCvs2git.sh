@@ -44,9 +44,9 @@ DO_SUBREPO_PHASE=1
 subRepoRoots=""
 subRepoRoots="${subRepoRoots} bms/web"
 subRepoRoots="${subRepoRoots} bms/monitor_linux"
-subRepoRoots="${subRepoRoots} bms/master"
+#subRepoRoots="${subRepoRoots} bms/master"
 subRepoRoots="${subRepoRoots} bms/slave"
-subRepoRoots="${subRepoRoots} bms/slave_backplane"
+#subRepoRoots="${subRepoRoots} bms/slave_backplane"
 subRepoRoots="${subRepoRoots} dashboard/TumanakoDash"
 #subRepoRoots="${subRepoRoots} inverter/fw/qpcpp"
 subRepoRoots="${subRepoRoots} inverter/fw/motor_control"
@@ -83,7 +83,7 @@ function createRepoName {
 	subRepoName=tumanako-$(echo "${relRepoPath}" | sed "s#/#-#g" -)
 
 	# do some cleanup
-	subRepoName=$(echo "${subRepoName}" | sed "s#monitor_linux#monitor#g" -)
+	subRepoName=$(echo "${subRepoName}" | sed "s#monitor_linux#master#g" -)
 	subRepoName=$(echo "${subRepoName}" | sed "s#slave_backplane#slaveBackplane#g" -)
 	subRepoName=$(echo "${subRepoName}" | sed "s#-TumanakoDash##g" -)
 	subRepoName=$(echo "${subRepoName}" | sed "s#_control#Control#g" -)
